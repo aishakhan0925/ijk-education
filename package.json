@@ -1,7 +1,7 @@
 {
   "name": "ijk-app",
+  "hompage": "http://www.ijk.edu.pk",
   "version": "0.1.0",
-  "hompage": "ijk.edu.pk",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

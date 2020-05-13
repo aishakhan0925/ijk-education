@@ -1,8 +1,17 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Img1 from "../images/smile.jpg";
-import Img2 from "../images/img2h.jpg";
-import Img3 from "../images/img3h.jpg";
+import Img1 from "../images/img1.jpg";
+import Img2 from "../images/im.jpg";
+import Img3 from "../images/h8.jpg";
+import Img4 from "../images/ig.jpg";
+import Img5 from "../images/grand.jpg";
+import Img6 from "../images/4.jpg";
+import Img7 from "../images/pl.jpg";
+import Img8 from "../images/sp6.jpg";
+import Img9 from "../images/staff.jpg";
+import Img10 from "../images/h13.jpg";
+import Img11 from "../images/h5.jpg";
+import Img12 from "../images/ed.jpg";
 
 class Home extends Component {
   render() {
@@ -12,28 +21,28 @@ class Home extends Component {
           <div className="col-lg-3 col-sm-12  p-5">
             <h2>
               {" "}
-              <i class="fas fa-school"></i> Schooling Life
+              <i className="fas fa-school"></i> Schooling Life
             </h2>
           </div>
           <div className="col-lg-3 col-sm-12  p-5">
             <h2>
               {" "}
-              <i class="fas fa-user-graduate"></i> Qualified Staff
+              <i className="fas fa-user-graduate"></i> Qualified Staff
             </h2>
           </div>
           <div className="col-lg-3 col-sm-12  p-5">
             <h2>
-              <i class="fas fa-running"></i>Sports Activities
+              <i className="fas fa-running"></i>Sports Activities
             </h2>
           </div>
           <div className="col-lg-3 col-sm-12  p-5">
             <h2>
               {" "}
-              <i class="fas fa-sms"></i> SMS Alert
+              <i className="fas fa-sms"></i> SMS Alert
             </h2>
           </div>
         </div>
-        <div class="row home">
+        <div className="row home">
           <div className="col-lg-6 col-sm-12"></div>
           <div className="col-lg-6 col-sm-12">
             <h2>
@@ -77,22 +86,35 @@ class Home extends Component {
           </div>
         </div>
         {/* gallery */}
-
         <div className="cnt">IJK Memoreis</div>
-        <div className="gallery">
-          <div className="col-lg-3 col-md-6 col-sm-12 im1"></div>
-          <div className="col-lg-3 col-md-6 col-sm-12 im2"></div>
-          <div className="col-lg-3 col-sm-12 im3"></div>
-        </div>
-        <div className="gallery">
-          <div className="col-lg-3 col-sm-12 im4"></div>
-          <div className="col-lg-3 col-sm-12 im5"></div>
-          <div className="col-lg-3 col-sm-12 im6"></div>
-        </div>
-        <div className="gallery">
-          <div className="col-lg-3 col-sm-12 im7"></div>
-          <div className="col-lg-3 col-sm-12 im8"></div>
-          <div className="col-lg-3 col-sm-12 im9"></div>
+        <div>
+          <div className="container">
+            <div className="row">
+              <div className="column">
+                <img src={Img1} />
+                <img src={Img2} />
+                <img src={Img3} />
+              </div>
+              <div className="column">
+                <img src={Img4} />
+                <img src={Img5} />
+                <img src={Img6} />
+                <img src={Img5} />
+              </div>
+              <div className="column">
+                <img src={Img7} />
+                <img src={Img8} />
+                <img src={Img9} />
+                <img src={Img12} />
+              </div>
+              <div className="column">
+                <img src={Img10} />
+                <img src={Img11} />
+                <img src={Img12} />
+                <img src={Img12} />
+              </div>
+            </div>
+          </div>
         </div>
       </HomeWrapper>
     );
